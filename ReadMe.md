@@ -13,7 +13,7 @@
   - tenserflow
 
 You can install the required libraries using
-
+ 
 ```bash
 pip install -r requirements.txt
 ```
@@ -60,6 +60,26 @@ The results are summarized in the table below:
 | 13           | tanh      | sgd       | categorical_crossentropy | 100        | 0.941667           | 0.900000         | 0.270102       | 0.267448      |
 | 14           | tanh      | sgd       | mean_squared_error       | 50         | 0.700000           | 0.800000         | 0.118937       | 0.122001      |
 | 15           | tanh      | sgd       | mean_squared_error       | 100        | 0.933333           | 0.900000         | 0.071300       | 0.069177      |
+
+## Plot
+![Alt text](./relu_adam_categorical_crossentropy_50_epochs.png "ReLu Adam") ![Alt text](./relu_adam_categorical_crossentropy_100_epochs.png "ReLu Adam")
+![Alt text](./relu_adam_mean_squared_error_50_epochs.png "ReLu Adam") ![Alt text](./relu_adam_mean_squared_error_100_epochs.png "ReLu Adam")
+
+------------------------------------------------------------------------
+
+![Alt text](./relu_sgd_categorical_crossentropy_50_epochs.png "ReLu SGD") ![Alt text](./relu_sgd_categorical_crossentropy_100_epochs.png "ReLu SGD")
+![Alt text](./relu_sgd_mean_squared_error_50_epochs.png "ReLu SGD") ![Alt text](./relu_sgd_mean_squared_error_100_epochs.png "ReLu SGD")
+
+------------------------------------------------------------------------
+
+![Alt text](./tanh_adam_categorical_crossentropy_50_epochs.png "Tanh Adam") ![Alt text](./tanh_adam_categorical_crossentropy_100_epochs.png "Tanh Adam")
+![Alt text](./tanh_adam_mean_squared_error_50_epochs.png "Tanh Adam") ![Alt text](./tanh_adam_mean_squared_error_100_epochs.png "Tanh Adam")
+
+------------------------------------------------------------------------
+
+![Alt text](./tanh_sgd_categorical_crossentropy_50_epochs.png "Tanh SGD") ![Alt text](./tanh_sgd_categorical_crossentropy_100_epochs.png "Tanh SGD")
+![Alt text](./tanh_sgd_mean_squared_error_50_epochs.png "Tanh SGD") ![Alt text](./tanh_sgd_mean_squared_error_100_epochs.png "Tanh SGD")
+
 
 ## Best Performing Model
 - Activation Function: Both relu and tanh with adam optimizer and categorical_crossentropy or mean_squared_error loss function performed well.
