@@ -115,4 +115,4 @@ The results are summarized in the table below:
 
 - Activation Functions: ReLu and Tanh both performed well, with ReLU often slightly outperforming Tanh. ReLU is known to help mitigate the vanishing gradient problem, which might explain its superior performance.
 - Optimizers: The Adam optimizer consistently outperformed SGD. This is likely due to adam’s adaptive learning rate and momentum.
-- Loss Functions: While categorical_crossentropy is more appropriate for classification tasks, mean_squared_error also yielded competitive results. However, for proper classification tasks, categorical_crossentropy is preferred.
+- Loss Functions: While categorical_crossentropy is more appropriate for classification tasks, mean_squared_error also yielded competitive results.
