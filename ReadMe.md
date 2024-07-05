@@ -1,5 +1,9 @@
 # Neural Network Hyper-parameter Optimization
 
+## Get started
+You can easily get started by using the Colab link below
+- [NeuralNetwork.ipynb](https://colab.research.google.com/drive/10lhwlFE72AgQwyJMdFbDowl-Aq9qFrfs?usp=sharing)
+
 ## Dataset
 - Dataset: [Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris)
 
