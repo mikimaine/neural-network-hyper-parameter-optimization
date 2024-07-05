@@ -1,5 +1,9 @@
 # Neural Network Hyper-parameter Optimization
 
+<a target="_blank" href="https://colab.research.google.com/github/mikimaine/neural-network-hyper-parameter-optimization/blob/main/NeuralNetwork.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ## Get started
 You can easily get started by using the Colab link below
 - [NeuralNetwork.ipynb](https://colab.research.google.com/drive/10lhwlFE72AgQwyJMdFbDowl-Aq9qFrfs?usp=sharing)
