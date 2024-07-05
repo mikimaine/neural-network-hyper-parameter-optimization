@@ -62,23 +62,47 @@ The results are summarized in the table below:
 | 15           | tanh      | sgd       | mean_squared_error       | 100        | 0.933333           | 0.900000         | 0.071300       | 0.069177      |
 
 ## Plot
-![Alt text](./relu_adam_categorical_crossentropy_50_epochs.png "ReLu Adam") ![Alt text](./relu_adam_categorical_crossentropy_100_epochs.png "ReLu Adam")
-![Alt text](./relu_adam_mean_squared_error_50_epochs.png "ReLu Adam") ![Alt text](./relu_adam_mean_squared_error_100_epochs.png "ReLu Adam")
+<p float="left">
+  <img src="/relu_adam_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/relu_adam_categorical_crossentropy_100_epochs.png" width="48%" />
+</p>
+<p float="left">
+  <img src="/relu_adam_mean_squared_error_50_epochs.png" width="48%" />
+  <img src="/relu_adam_mean_squared_error_100_epochs.png" width="48%" />
+</p>
 
 ------------------------------------------------------------------------
 
-![Alt text](./relu_sgd_categorical_crossentropy_50_epochs.png "ReLu SGD") ![Alt text](./relu_sgd_categorical_crossentropy_100_epochs.png "ReLu SGD")
-![Alt text](./relu_sgd_mean_squared_error_50_epochs.png "ReLu SGD") ![Alt text](./relu_sgd_mean_squared_error_100_epochs.png "ReLu SGD")
+<p float="left">
+  <img src="/relu_sgd_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/relu_sgd_categorical_crossentropy_100_epochs.png" width="48%" />
+</p>
+<p float="left">
+  <img src="/relu_sgd_mean_squared_error_50_epochs.png" width="48%" />
+  <img src="/relu_sgd_mean_squared_error_100_epochs.png" width="48%" />
+</p>
 
 ------------------------------------------------------------------------
 
-![Alt text](./tanh_adam_categorical_crossentropy_50_epochs.png "Tanh Adam") ![Alt text](./tanh_adam_categorical_crossentropy_100_epochs.png "Tanh Adam")
-![Alt text](./tanh_adam_mean_squared_error_50_epochs.png "Tanh Adam") ![Alt text](./tanh_adam_mean_squared_error_100_epochs.png "Tanh Adam")
+<p float="left">
+  <img src="/tanh_adam_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/tanh_adam_categorical_crossentropy_100_epochs.png" width="48%" />
+</p>
+<p float="left">
+  <img src="/tanh_sgd_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/tanh_adam_mean_squared_error_100_epochs.png" width="48%" />
+</p>
 
 ------------------------------------------------------------------------
 
-![Alt text](./tanh_sgd_categorical_crossentropy_50_epochs.png "Tanh SGD") ![Alt text](./tanh_sgd_categorical_crossentropy_100_epochs.png "Tanh SGD")
-![Alt text](./tanh_sgd_mean_squared_error_50_epochs.png "Tanh SGD") ![Alt text](./tanh_sgd_mean_squared_error_100_epochs.png "Tanh SGD")
+<p float="left">
+  <img src="/tanh_sgd_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/tanh_sgd_categorical_crossentropy_100_epochs.png" width="48%" />
+</p>
+<p float="left">
+  <img src="/tanh_sgd_mean_squared_error_50_epochs.png" width="48%" />
+  <img src="/tanh_sgd_mean_squared_error_100_epochs.png" width="48%" />
+</p>
 
 
 ## Best Performing Model
