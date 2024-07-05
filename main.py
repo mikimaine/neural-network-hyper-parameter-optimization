@@ -33,10 +33,11 @@ class NeuralNet:
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
         # Hyperparameters
-        activations = ['relu', 'tanh']
+        activations = ['sigmoid', 'relu', 'tanh']
         optimizers = ['adam', 'sgd']
         losses = ['categorical_crossentropy', 'mean_squared_error']
         epochs = [50, 100]
+        num_hidden_layers = [8, 4]
 
         results = []
 
@@ -46,8 +47,11 @@ class NeuralNet:
                     for epoch in epochs:
                         model = Sequential()
                         model.add(Input(shape=(X_train.shape[1],)))
-                        model.add(Dense(8, activation=activation))
-                        model.add(Dense(4, activation=activation))
+
+                        # lets add hidden layers
+                        for hidden_layer in num_hidden_layers:
+                            model.add(Dense(hidden_layer, activation=activation))
+
                         model.add(Dense(3, activation='softmax'))
 
                         model.compile(loss=loss, optimizer=optimizer, metrics=['accuracy'])

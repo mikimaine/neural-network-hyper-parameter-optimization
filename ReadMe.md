@@ -69,6 +69,10 @@ The results are summarized in the table below:
 | 14           | Tanh       | SGD       | mean_squared_error       | 50         | 0.700000           | 0.800000         | 0.118937       | 0.122001      |
 | 15           | Tanh       | SGD       | mean_squared_error       | 100        | 0.933333           | 0.900000         | 0.071300       | 0.069177      |
 
+- Complete Result:
+
+<img src="/complete_result.png" />
+
 ## Plot
 <p float="left">
   <img src="/relu_adam_categorical_crossentropy_50_epochs.png" width="48%" />
@@ -111,6 +115,29 @@ The results are summarized in the table below:
   <img src="/tanh_sgd_mean_squared_error_50_epochs.png" width="48%" />
   <img src="/tanh_sgd_mean_squared_error_100_epochs.png" width="48%" />
 </p>
+
+------------------------------------------------------------------------
+
+<p float="left">
+  <img src="/sigmoid_adam_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/sigmoid_adam_categorical_crossentropy_100_epochs.png" width="48%" />
+</p>
+<p float="left">
+  <img src="/sigmoid_adam_mean_squared_error_50_epochs.png" width="48%" />
+  <img src="/sigmoid_adam_mean_squared_error_100_epochs.png" width="48%" />
+</p>
+
+------------------------------------------------------------------------
+
+<p float="left">
+  <img src="/sigmoid_sgd_categorical_crossentropy_50_epochs.png" width="48%" />
+  <img src="/sigmoid_sgd_categorical_crossentropy_100_epochs.png" width="48%" />
+</p>
+<p float="left">
+  <img src="/sigmoid_sgd_mean_squared_error_50_epochs.png" width="48%" />
+  <img src="/sigmoid_sgd_mean_squared_error_100_epochs.png" width="48%" />
+</p>
+
 
 
 ## Best Performing Model
