@@ -48,7 +48,6 @@ class NeuralNet:
                         model = Sequential()
                         model.add(Input(shape=(X_train.shape[1],)))
 
-                        # lets add hidden layers
                         for hidden_layer in num_hidden_layers:
                             model.add(Dense(hidden_layer, activation=activation))
 
